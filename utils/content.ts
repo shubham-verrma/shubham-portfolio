@@ -1,4 +1,4 @@
-import { SiteContent } from '@/types';
+import { SiteContent, HeroContent, CaseStudy, Stat, ExperienceItem, WritingItem, AboutContent, ContactContent } from '@/types';
 
 export async function loadContent(): Promise<SiteContent> {
   const [hero, caseStudies, stats, experience, writing, about, contact] = await Promise.all([
@@ -12,12 +12,12 @@ export async function loadContent(): Promise<SiteContent> {
   ]);
 
   return {
-    hero: hero.default,
-    caseStudies: caseStudies.default,
-    stats: stats.default,
-    experience: experience.default,
-    writing: writing.default,
-    about: about.default,
-    contact: contact.default,
+    hero: hero.default as HeroContent,
+    caseStudies: caseStudies.default as CaseStudy[],
+    stats: stats.default as Stat[],
+    experience: experience.default as ExperienceItem[],
+    writing: writing.default as WritingItem[],
+    about: about.default as AboutContent,
+    contact: contact.default as ContactContent,
   };
 }
