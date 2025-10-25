@@ -98,8 +98,8 @@ export default function AdvancedCursorFX() {
       <motion.div
         className="fixed top-0 left-0 w-32 h-32 pointer-events-none z-40"
         style={{
-          x: springX - 64,
-          y: springY - 64,
+          x: useTransform(springX, (value) => value - 64),
+          y: useTransform(springY, (value) => value - 64),
           scale,
           rotate,
         }}
@@ -120,8 +120,8 @@ export default function AdvancedCursorFX() {
         <motion.div
           className="fixed top-0 left-0 w-20 h-20 pointer-events-none z-45"
           style={{
-            x: springX - 40,
-            y: springY - 40,
+            x: useTransform(springX, (value) => value - 40),
+            y: useTransform(springY, (value) => value - 40),
           }}
           initial={{ scale: 0, opacity: 0.8 }}
           animate={{ scale: 2, opacity: 0 }}
@@ -135,8 +135,8 @@ export default function AdvancedCursorFX() {
       <motion.div
         className="fixed top-0 left-0 w-96 h-96 pointer-events-none z-30"
         style={{
-          x: springX - 192,
-          y: springY - 192,
+          x: useTransform(springX, (value) => value - 192),
+          y: useTransform(springY, (value) => value - 192),
         }}
         animate={{
           background: isHovering
