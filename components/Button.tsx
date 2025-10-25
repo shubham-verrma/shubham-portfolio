@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, HTMLMotionProps } from 'framer-motion';
 import { cn } from '@/utils';
-import { ButtonHTMLAttributes, forwardRef } from 'react';
+import { forwardRef } from 'react';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends Omit<HTMLMotionProps<'button'>, 'children'> {
   variant?: 'primary' | 'secondary' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   magnetic?: boolean;
@@ -27,10 +27,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       lg: 'px-8 py-4 text-lg rounded-xl',
     };
 
-    const MotionButton = motion.button;
-
     return (
-      <MotionButton
+      <motion.button
         ref={ref}
         className={cn(baseClasses, variants[variant], sizes[size], className)}
         whileHover={magnetic ? { scale: 1.02 } : undefined}
@@ -39,7 +37,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {...props}
       >
         {children}
-      </MotionButton>
+      </motion.button>
     );
   }
 );
