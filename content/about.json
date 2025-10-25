@@ -1,0 +1,20 @@
+{
+  "description": "I'm a founder-type operator who specializes in building and scaling products from zero to revenue. With a background in strategy, operations, and creator economy, I help companies navigate the complex journey from concept to market success. I believe in data-driven decisions, user-centric design, and sustainable growth that creates real value.",
+  "whatIDo": [
+    "Zero-to-one product launches",
+    "Go-to-market strategy development",
+    "Creator economy platform building",
+    "Operations scaling and optimization",
+    "Strategic partnership development",
+    "Revenue growth and P&L management"
+  ],
+  "whatIDontDo": [
+    "Vanity metrics optimization",
+    "Short-term growth hacking",
+    "One-size-fits-all solutions",
+    "Ignoring user feedback",
+    "Over-engineering simple problems",
+    "Working without clear success metrics"
+  ],
+  "portrait": "/images/shubham-portrait.jpg"
+}

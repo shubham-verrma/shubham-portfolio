@@ -1,0 +1,107 @@
+[
+  {
+    "id": "exly-new-vertical",
+    "title": "EXLY: New Vertical Launch",
+    "outcome": "₹2 Cr GMV in 90 days",
+    "tags": ["GTM", "Creator Economy", "Ops", "Partnerships", "P&L"],
+    "coverImage": "/images/exly-cover.jpg",
+    "problem": [
+      "EXLY needed to expand beyond existing creator categories",
+      "Market saturation in current verticals limiting growth",
+      "Required new revenue streams to hit ambitious targets"
+    ],
+    "strategy": [
+      "Identified underserved creator niches with high monetization potential",
+      "Developed go-to-market strategy for new vertical launch",
+      "Built partnerships with key influencers in target space"
+    ],
+    "execution": [
+      "Launched targeted creator onboarding program",
+      "Implemented tiered pricing strategy for new vertical",
+      "Created dedicated support team for vertical-specific needs",
+      "Rolled out marketing campaigns across multiple channels"
+    ],
+    "result": [
+      "Achieved ₹2 Cr GMV within 90 days of launch",
+      "Onboarded 150+ creators in new vertical",
+      "Generated 40% higher ARPU compared to existing verticals",
+      "Established market leadership position"
+    ],
+    "behindTheScenes": [
+      "Key insight: Creators in this vertical had 3x higher engagement rates",
+      "Partnership with industry leader was crucial for credibility",
+      "Had to build custom features specific to vertical needs"
+    ],
+    "images": ["/images/exly-dashboard.jpg", "/images/exly-creators.jpg"]
+  },
+  {
+    "id": "community-migration",
+    "title": "Community Migration (MBA – Mai Bhi Artist)",
+    "outcome": "Zero downtime migration with 95% retention",
+    "tags": ["Community", "Migration", "Ops", "User Experience"],
+    "coverImage": "/images/mba-cover.jpg",
+    "problem": [
+      "Existing community platform couldn't scale with user growth",
+      "Poor user experience affecting engagement",
+      "High maintenance costs on legacy system"
+    ],
+    "strategy": [
+      "Evaluated multiple platform options for scalability",
+      "Designed migration strategy to minimize user disruption",
+      "Created comprehensive user communication plan"
+    ],
+    "execution": [
+      "Built custom migration tools for seamless data transfer",
+      "Implemented parallel testing environment",
+      "Conducted phased rollout with beta user group",
+      "Provided extensive user support during transition"
+    ],
+    "result": [
+      "Completed migration with zero downtime",
+      "Achieved 95% user retention rate",
+      "Improved page load times by 60%",
+      "Reduced operational costs by 40%"
+    ],
+    "behindTheScenes": [
+      "Biggest challenge was maintaining user trust during transition",
+      "Created detailed migration guides and video tutorials",
+      "Set up 24/7 support during critical migration period"
+    ],
+    "images": ["/images/mba-community.jpg", "/images/mba-migration.jpg"]
+  },
+  {
+    "id": "tsc-academy-scholarship",
+    "title": "TSC Academy x Sandesh Shandilya (106-seat scholarship)",
+    "outcome": "106 scholarships awarded, 98% completion rate",
+    "tags": ["Education", "Partnerships", "Social Impact", "Operations"],
+    "coverImage": "/images/tsc-cover.jpg",
+    "problem": [
+      "Limited access to quality music education for underprivileged students",
+      "Need to create sustainable scholarship program",
+      "Required partnership with renowned music industry professional"
+    ],
+    "strategy": [
+      "Partnered with Sandesh Shandilya for credibility and expertise",
+      "Designed merit-cum-need based scholarship criteria",
+      "Created comprehensive curriculum for scholarship recipients"
+    ],
+    "execution": [
+      "Launched nationwide scholarship application process",
+      "Conducted rigorous selection process with industry experts",
+      "Implemented structured learning program with mentorship",
+      "Provided ongoing support and career guidance"
+    ],
+    "result": [
+      "Awarded 106 scholarships to deserving students",
+      "Achieved 98% program completion rate",
+      "Created pathway for students to enter music industry",
+      "Established sustainable funding model for future programs"
+    ],
+    "behindTheScenes": [
+      "Selection process involved multiple rounds including practical tests",
+      "Created mentorship program connecting students with industry professionals",
+      "Built tracking system to monitor student progress and outcomes"
+    ],
+    "images": ["/images/tsc-students.jpg", "/images/tsc-ceremony.jpg"]
+  }
+]
