@@ -1,6 +1,6 @@
 import Navigation from '@/components/Navigation';
 import ProgressBar from '@/components/ProgressBar';
-import CursorFX from '@/components/CursorFX';
+import AdvancedCursorFX from '@/components/AdvancedCursorFX';
 import Hero from '@/sections/Hero';
 import Work from '@/sections/Work';
 import Numbers from '@/sections/Numbers';
@@ -18,7 +18,7 @@ export default async function HomePage() {
     <>
       <ProgressBar />
       <Navigation />
-      <CursorFX />
+      <AdvancedCursorFX />
       
       <main>
         <Hero content={content.hero} />
